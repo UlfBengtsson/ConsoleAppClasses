@@ -2,7 +2,7 @@
 
 namespace ConsoleAppClasses
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -31,6 +31,12 @@ namespace ConsoleAppClasses
             Console.WriteLine(anotherCar.Info());
             Console.WriteLine(someonceCar.Info());
 
+            Console.WriteLine(DivMath(3.0,0.0));
+        }
+
+        public static double DivMath(double numA, double numB)
+        {
+            return numA / numB;
         }
     }
 }
